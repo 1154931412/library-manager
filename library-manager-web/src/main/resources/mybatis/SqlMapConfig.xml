@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+ "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>	
+	<settings>
+		<!--开启驼峰命名规则 -->
+		<setting name="mapUnderscoreToCamelCase" value="true" />
+		<!-- 开启懒加载 -->
+		<setting name="lazyLoadingEnabled" value="true" />
+		<setting name="aggressiveLazyLoading" value="false" />
+		<!-- 使用二级(全局)缓存 -->
+		<setting name="cacheEnabled" value="true" />
+	</settings>
+</configuration>
+ 
